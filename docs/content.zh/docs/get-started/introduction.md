@@ -63,6 +63,7 @@ Flink CDC 提供了丰富的连接器生态系统，用于与各种外部系统�
 | TiDB          | [Source Connector]({{< ref "docs/connectors/flink-sources/tidb-cdc" >}})                                                                                               |
 | Vitess        | [Source Connector]({{< ref "docs/connectors/flink-sources/vitess-cdc" >}})                                                                                             |
 | Apache Doris  | [Pipeline Sink Connector]({{< ref "docs/connectors/pipeline-connectors/doris" >}})                                                                                     |
+| DuckLake      | [Pipeline Sink Connector]({{< ref "docs/connectors/pipeline-connectors/ducklake" >}})                                                                                   |
 | Elasticsearch | [Pipeline Sink Connector]({{< ref "docs/connectors/pipeline-connectors/elasticsearch" >}})                                                                             |
 | Fluss         | [Pipeline Sink Connector]({{< ref "docs/connectors/pipeline-connectors/fluss" >}})                                                                                     |
 | Hudi          | [Pipeline Sink Connector]({{< ref "docs/connectors/pipeline-connectors/hudi" >}})                                                                                      |
@@ -148,4 +149,3 @@ pipeline:
 - [理解 Flink CDC API]({{< ref "docs/developer-guide/understand-flink-cdc-api" >}})，开发您自己的Flink CDC 连接器。
 - 了解如何[向 Flink CDC 提交贡献]({{< ref "docs/developer-guide/contribute-to-flink-cdc" >}})
 - 查看 Flink CDC 使用的[许可证]({{< ref "docs/developer-guide/licenses" >}})
-
