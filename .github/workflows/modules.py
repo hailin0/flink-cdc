@@ -21,6 +21,7 @@ MODULES_CORE = [
 
 MODULES_PIPELINE_CONNECTORS = [
     "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-doris",
+    "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-ducklake",
     "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-elasticsearch",
     "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-iceberg",
     "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-kafka",
@@ -102,6 +103,10 @@ MODULES_DORIS = [
     "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-doris"
 ]
 
+MODULES_DUCKLAKE = [
+    "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-ducklake"
+]
+
 MODULES_STARROCKS = [
     "flink-cdc-connect/flink-cdc-pipeline-connectors/flink-cdc-pipeline-connector-starrocks"
 ]
@@ -159,6 +164,7 @@ ALL_MODULES = set(
     MODULES_DB2 +
     MODULES_VITESS +
     MODULES_DORIS +
+    MODULES_DUCKLAKE +
     MODULES_STARROCKS +
     MODULES_ICEBERG +
     MODULES_KAFKA +

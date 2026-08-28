@@ -103,6 +103,7 @@ limitations under the License.
         <scala.version>2.12.16</scala.version>
         <!-- Maven shade plugin prior to 3.2.0 could not correctly shade nested classes with JDK 8+. -->
         <maven.shade.plugin.version>3.6.0</maven.shade.plugin.version>
+        <duckdb.version>1.5.5.1</duckdb.version>
         <iceberg.version>1.10.1</iceberg.version>
         <iceberg.flink.major.version>1.20</iceberg.flink.major.version>
         <hive.version>2.3.9</hive.version>
